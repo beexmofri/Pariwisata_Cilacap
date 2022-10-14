@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E6FF"
+    android:orientation="vertical"
+    tools:context=".KemitForest">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/pantaikemiren" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#2B2B40"
+        android:padding="20dp"
+        android:text="Pantai Kemiren"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <RatingBar
+        android:id="@+id/rtpk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:progressBackgroundTint="#A9A9A9"
+        android:progressTint="#DAA520"
+        android:rating="0"
+        android:stepSize="0.5" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:padding="20dp"
+            android:gravity="center"
+            android:text="Destinasi wisata alam Pantai Kemiren menyajikan pesona dan spot menarik didalamnya. Banyak tempat piknik keluarga di Cilacap yang cocok untuk menemani perjalanan liburan anda dan keluarga. Selain keindahannya, banyak juga destinasi wisata murah di Cilacap. Salah satunya yaitu Pantai Kemiren dengan pesonanya. Untuk explore sajian pantai di Cilacap satu ini, anda tidak akan kehilangan banyak biaya. Harga tiket masuk wisata alam Pantai Kemiren Cilacap yaitu Rp.5.000/orang. Dengan biaya tambahan yang harus anda keluarkan di Pantai Kemiren yaitu tiket parkir kendaraan. Rp.2.000 untuk sepeda motor dan mobil Rp.5.000 setiap harinya."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btrtpk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2A6C8A"
+        android:layout_gravity="center"
+        android:text="Rating"/>
+
+</LinearLayout>

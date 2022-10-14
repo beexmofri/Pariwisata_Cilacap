@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#205F7C"
+        android:text="TENTANG "
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        android:textSize="12pt" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Aplikasi Pariwisata Cilacap \n\nAplikasi ini memberikan informasi tentang tempat wisata di Cilacap. Aplikasi Pariwisata Cilacap ini dibuat untuk memenuhi tugas penulisan ilmiah, diharapkan dapat mempermudah turis untuk mengetahui tempat wisata yang ada di Cilacap.\n\nTentang Pembuat:\nBinar Mohamad Faruqi - 11118442\nUniversita Gundarma"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="8pt" />
+
+    <Button
+        android:id="@+id/btkembali"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:text="Kembali"
+        app:backgroundTint="#2A6C8A" />
+
+</LinearLayout>

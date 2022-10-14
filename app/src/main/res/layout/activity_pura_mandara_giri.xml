@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E6FF"
+    android:orientation="vertical"
+    tools:context=".PuraMandaraGiri">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/puramandaragirigunungselok" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#2B2B40"
+        android:padding="20dp"
+        android:text="Pura Mandara Giri Selok"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <RatingBar
+        android:id="@+id/rtpm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:progressBackgroundTint="#A9A9A9"
+        android:progressTint="#DAA520"
+        android:rating="0"
+        android:stepSize="0.5" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="center"
+            android:text="Pura Mandara Giri merupakan tempat ibadat Umat Hindu yang berada di kaki Gunung Selok, Cilacap. Kawasan ini memiliki pemandangan yang bagus dengan iklim yang sejuk dan suasananya begitu tenang. Lokasinya berada di Desa Karangbenda, Kecamatan Adipala, Kabupaten Cilacap, Jawa Tengah. Dengan aplikasi Google Maps, pura ini mudah sekali ditemukan. Begitu sampai di sini, nuansa Bali sungguh terasa. Jika sedang beruntung, kamu bisa menyaksikan upacara Melasti yang diselenggarakan di Pura Mandara Giri. Upacara Melasti adalah perayaan Umat Hindu yang dilakukan untuk menyambut Hari Raya Nyepi. Upacara Melasti merupakan ritual penyucian diri dan alam semesta dengan melarung sesaji dan hewan ternak ke laut. Pelarungan tersebut adalah simbol peleburang diri dengan alam semesta. Upacara ini dilakukan di pinggir pantai dengan tujuan untuk mensucikan diri dari kotoran masa lalu dengan membuangnya ke laut. Umat Hindu yang mengikuti ritual ini biasanya yang berdomisili di Cilacap dan Banyumas. Upacara dimulai dengan sembahyang di Pura, kemudian dilanjutkan dengan upacara Melasti di Pantai Selok."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btrtpm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2A6C8A"
+        android:layout_gravity="center"
+        android:text="Rating"/>
+
+</LinearLayout>

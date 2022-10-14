@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E6FF"
+    android:orientation="vertical"
+    tools:context=".CurugCimandaway">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/curugcimandaway" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#2B2B40"
+        android:padding="20dp"
+        android:text="Curug Cimandaway"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <RatingBar
+    android:id="@+id/rtcc"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:numStars="5"
+    android:progressBackgroundTint="#A9A9A9"
+    android:progressTint="#DAA520"
+    android:rating="0"
+    android:stepSize="0.5" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Curug cimandaway terletak di Serang, Desa Datar, Kecamatan Dayeuhluhur Cilacap jawa tengah adalah tempat wisata yang ramai dengan wisatawan pada hari biasa maupun hari libur. Curug cimandaway memiliki pesona keindahan yang sangat menarik untuk dikunjungi. Wisata curug cimandaway memilliki lima tingkatan dengan ketinggian lebih kurang 100 meter. Dan curug cimandaway merupakan air terjun paling tinggi di kabupaten Cilacap. Yang unik dari curug cimandaway adalah air terjun nya, dimana air terjun ini berasal dari sungai singaraja dan air nya jatuh ke sungai cikawalon yang berada di bawah nya. Wisata Curug Cimandaway di Dayeuhluhur memiliki pemandangan yg indah serta menyuguh kan pemandanganyang indah.suasana yang masih alami dan dikelilingi oleh pohon pohon rindang dan area persawahan menjadikan pemandangan yang sangat menyenangkan jika mengunjungi curug ini. Ada mitos yang berkembang di masyarakat setempat bahwa curug cimandaway ini adalah air yang mempesona / membuat wanita terkesima. Sehingga menurut kepercayaan setempat bilamana ada pasangan yang datang mengunjungi curug tersebut maka akan berjodoh.."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btrtcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2A6C8A"
+        android:layout_gravity="center"
+        android:text="Rating"/>
+
+</LinearLayout>

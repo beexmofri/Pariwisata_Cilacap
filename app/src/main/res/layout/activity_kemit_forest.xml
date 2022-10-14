@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E6FF"
+    android:orientation="vertical"
+    tools:context=".KemitForest">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/kemitforest" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#2B2B40"
+        android:padding="20dp"
+        android:text="Kemit Forest"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <RatingBar
+        android:id="@+id/rtkf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:progressBackgroundTint="#A9A9A9"
+        android:progressTint="#DAA520"
+        android:rating="0"
+        android:stepSize="0.5" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:gravity="center"
+            android:text="Kemit Forest adalah wisata alam edukasi yang berada di kecamatan sidareja. Sekitar 40km dari pusat kota cilacap, namun lebih dekat dari jalan raya utama (Jalur nasional), sekitar 15km. Wisata ini memang terbilang baru didirikan, namun antusias masyarakat lokal cukup bagus. Kemit Forest awalnya merupakan lahan hutan persero yang banyak ditumbuhi pohon pinus dan karet. Namun beberapa hektar dimanfaatkan untuk menjadi tempat wisata di cilacap ini. Kemit Forest Sidareja terbilang hampir mirip dengan hutan pinus kranggilan di magelang, dan juga mirip dengan lodge maribaya di bandung. Tentunya, jika kamu foto-foto di Kemit Forest Sidareja ini, yang pasti instagramable banget Ada beberapa wahana yang bisa dinikmati seperti skytree, ayunan, rumah pohon, sepeda gantung, dan masih banyak lagi. Wisata ini juga cukup terjangkau untuk keluarga, tidak begitu mahal."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btrtkf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2A6C8A"
+        android:layout_gravity="center"
+        android:text="Rating"/>
+
+</LinearLayout>

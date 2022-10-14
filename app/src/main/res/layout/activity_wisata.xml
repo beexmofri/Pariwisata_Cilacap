@@ -1,0 +1,26 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#fff"
+android:orientation="vertical"
+tools:context="com.example.pariwistacilacapapp.Wisata"
+android:weightSum="1">
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="454dp">
+
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btwst"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#2A6C8A"
+        android:text="Kembali" />
+</LinearLayout>

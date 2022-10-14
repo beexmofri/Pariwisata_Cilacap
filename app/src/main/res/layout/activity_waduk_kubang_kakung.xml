@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E6FF"
+    android:orientation="vertical"
+    tools:context=".WadukKubangKakung">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/wadukkubangkakung" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#2B2B40"
+        android:padding="20dp"
+        android:text="Waduk Kubangkakung"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <RatingBar
+        android:id="@+id/rtwk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:progressBackgroundTint="#A9A9A9"
+        android:progressTint="#DAA520"
+        android:rating="0"
+        android:stepSize="0.5" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:gravity="center"
+            android:text="Waduk kubang kangkung cilacap ini merupakan sebuah waduk buatan yang dibuat pada masa penajajahan belanda yang terjadi di indonesoa yang dibuat oleh warga belanja, yang bertujuan sebagai sumber penyimpanan air yang tidak kering walaupun musim kemarau melanda waduk tersebut.
+Pada waktu itu desa kubang kakung merupakan depan yang rawan kekirngan yang ada dikecamatan kawunganten kabupaten cilacap. Dikala musim kemarau panjang sampai saat ini waduk kubang kangkung saat iniwaduk masih dalam keadaan alami dan pohon-pohon yang umurnya ratusan tahun juga masih ada.
+Waduk ini terletak didesa kubangkangkung atau lebih tepatnya kurang lebih 300 M sebelah utara PTPN IX Kubangkangkung. Diwaduk ini sekarang dijadikan wisata alam yang berbentuk waduk yang didalamnya terdapat permainan yang cocok untuk bersinggah baik dengan keluarga maupun dengan teman-teman."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btrtwk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2A6C8A"
+        android:layout_gravity="center"
+        android:text="Rating"/>
+
+</LinearLayout>

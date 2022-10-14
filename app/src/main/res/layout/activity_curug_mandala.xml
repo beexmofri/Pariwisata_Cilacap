@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E6FF"
+    android:orientation="vertical"
+    tools:context=".CurugMandala">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/curugmandala" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#2B2B40"
+        android:padding="20dp"
+        android:text="Curug Mandala"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <RatingBar
+        android:id="@+id/rtcm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:progressBackgroundTint="#A9A9A9"
+        android:progressTint="#DAA520"
+        android:rating="0"
+        android:stepSize="0.5" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:gravity="center"
+            android:text="Curug Mandala merupakan salah satu wisata air terjun di kabupaten Cilacap. Lokasinya  terletak di desa Mandala, kecamatan Jeruk Legi. Kabupaten Cilacap, Jawa Tengah atau sebelah timur dari bandara Tunggul Wulung Cilacap. Sesuai tempatnya, curug ini pun dikenal dengan nama curug Mandala. Untuk sampai di lokasi curug Mandala, wisatawan harus melakukan perjalanan melintasi perbukitan dengan medan jalan naik turun berupa tangga cor meski kondisinya kurang terawat karena sedikit tertutup oleh semak belukar. Jika anda bekunjung ke curug mandala harus ektra hati-hati,karna medannya sulit kita tak bisa menggunakan kendaraan, untuk menempuh jarak agar sampai ke curug kita harus berjalan kaki. Tapi anda jangan khawatir,karna rasa lelah anda akan terbayar oleh indahnya curug mandala,dengan bukit yang tinggi di tumbuhi tanaman hijau dan air yang turun dari bukit tak langsung turun atau membentur bebatuan dulu membuat mata kita kaya lagi di manjakan oleh alam,tapi bagi pengunjung tidak di sarankan mandi di bawah air terjun,di karenakan kolam yang ada di bawah air terjun cukup dalam,dan juga air yang turun arusnya lumayan keras."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btrtcm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2A6C8A"
+        android:layout_gravity="center"
+        android:text="Rating"/>
+
+</LinearLayout>

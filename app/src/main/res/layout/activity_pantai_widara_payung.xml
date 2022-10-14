@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E6FF"
+    android:orientation="vertical"
+    tools:context=".KemitForest">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/pantaiwidarapayung" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#2B2B40"
+        android:padding="20dp"
+        android:text="Pantai Widarapayung"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <RatingBar
+        android:id="@+id/rtpw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:progressBackgroundTint="#A9A9A9"
+        android:progressTint="#DAA520"
+        android:rating="0"
+        android:stepSize="0.5" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:padding="20dp"
+            android:gravity="center"
+            android:text="Nama pantai ini diambil dari nama desa letak pantai ini berada, yaitu Desa Widara Payung. Jika dibandingkan dengan pantai yang lain, wisata pantai ini memang tidak begitu luas. Namun demikian, keindahan alamnya tak kalah menarik dengan wisata pantai yang lain. Pantai Widara Payung akan ramai dikunjungi oleh wisatawan pada saat-saat tertentu, yaitu ketika memasuki bulan Ramadhan, akhir pekan, dan ketika hari libur nasional. Sehingga, jika Anda ingin menghindari keramaian, Anda bisa berkunjung di luar waktu tersebut. Pantai ini memiliki pesona keindahan alam yang sangat memikat. Sehingga dengan berlibur di tempat ini, Anda dapat merefresh pikiran Anda sejenak dan beristirahat dari segala rutinitas yang Anda lakukan sebelumnya. Dengan berlibur, maka Anda bisa mendapatkan semangat baru untuk kembali menjalankan rutinitas tersebut."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btrtpw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2A6C8A"
+        android:layout_gravity="center"
+        android:text="Rating"/>
+
+</LinearLayout>

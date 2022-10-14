@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E6FF"
+    android:orientation="vertical"
+    tools:context=".BentengPendem">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:src="@drawable/bentengpendem" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#2B2B40"
+        android:padding="20dp"
+        android:text="Benteng Pendem"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <RatingBar
+        android:id="@+id/rtbp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:progressBackgroundTint="#A9A9A9"
+        android:progressTint="#DAA520"
+        android:rating="0"
+        android:stepSize="0.5" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Benteng Pendem Cilacap atau dalam Bahasa Belanda disebut “Kusbatterij op de Lantong te Cilacap”. Sesuai namanya, benteng ini terletak di Kota Cilacap, Jawa Tengah.  Pada saat itu Kota Cilacap merupakan salah satu kota penting pada masa kolonial Belanda di Indonesia. Hal ini dikarenakan letaknya yang cukup strategis dengan adanya selat Nusakambangan yang merupakan gerbang Pelabuhan utama di daerah tersebut. Bangunan ini dahulu digunakan sebagai markas pertahanan Hindia Belanda yang dibangun secara bertahap dari tahun 1861-1879 dengan luas 6,5 hektar. Penamaan dari Benteng Pendem sendiri sesuai dengan kondisi dari penemuan bangunan tersebut. Benteng ini semula ditemukan pada tahun 1986 M oleh masyarakat setempat dalam keaadaan terpendam tanah, oleh karenanya disebut dengan Benteng Pendem.
+Benteng Pendem dulunya dibangun oleh tenaga pribumi dengan material utama yakni, batu bata merah dari gunung berapi dan batu kapur. Setelah pembangunan selesai benteng ini selesai maka, alasan privasi militer pribumi yang dipekerjakan tidak diizinkan untuk pulang dan menjadi pembantu para Tentara Belanda. Hal ini untuk menjaga keamanan dan privasi dari adanya Benteng Pendem tersebut. Meskipun Benteng Pendem ini secara sengaja dibangun terpendam dengan kedalaman kurang lebih 3 meter dan tertutup oleh semak belukar. Namun, fasilitas yang termuat didalamnya cukup lengkap. Yakni, terdapat ruangan yang terdiri dari 60 kamar istirahat, Gedung senjata, terowongan, ruang pengintai, ruang penjara, ruang rapat, ruang amunisi, ruang klinik pengobatan, ruang perwira, dapur, ruang tembak, dan 13 tempat penting pertahanan yang dikelilingi oleh pagar besi. Kapasitas dari benteng ini juga mampu menampung tantara sebanyak satu batalyon."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btrtbp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2A6C8A"
+        android:layout_gravity="center"
+        android:text="Rating"/>
+
+</LinearLayout>

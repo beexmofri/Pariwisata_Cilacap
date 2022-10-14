@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E6FF"
+    android:orientation="vertical"
+    tools:context=".BentengKarangBolong">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:src="@drawable/bentengkarangbbolong" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#2B2B40"
+        android:padding="20dp"
+        android:text="Benteng Karang Bolong"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <RatingBar
+        android:id="@+id/rtbk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:progressBackgroundTint="#A9A9A9"
+        android:progressTint="#DAA520"
+        android:rating="0"
+        android:stepSize="0.5" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Di Propinsi Jawa Tengah terdapat beberapa benteng tinggalan masa kolonial. Benteng ini terletak di daerah-daerah yang dipilih sesuai dengan kegunaan benteng tersebut. Salah satu benteng ini adalah benteng Karangbolong. Benteng Karangbolong terletak di sisi paling timur Pulau Nusakambangan atau sebelah timur dari Benteng Klingker. Secara administratif benteng ini berada di Desa Tambak Reja, Kecamatan Cilacap Selatan, Pulau Nusakambangan, Kabupaten Cilacap. Jarak benteng ini dengan benteng terdekat yaitu Benteng Klingker berkisar 1,6 Km dan dapat ditempuh dengan perjalanan darat dan laut. Bangunan yang terdapat di Benteng Karangbolong adalah gerbang benteng, bangunan induk, sisa-sisa rumah belanda dan sebuah benteng Jepang. Benteng Karangbolong yang dibangun pada abad XIX merupakan bentuk dari strategi militer pada masanya. Benteng merupakan sisyem pertahanan pantai yang pada masa itu difungsikan oleh Belanda untuk mengamankan area pelabuhan cilacap dari ancaman musuh yang datang dari laut. Benteng Karangbolong juga dapat menunjukkan bahwa pelabuhan Cilacap mempunyai peranan yang sangat penting. Hal ini juga dikuatkan dengan keberadaan benteng lain yaitu Klingkers dan Benteng Pendem."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btrtbk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#2A6C8A"
+        android:text="Rating" />
+</LinearLayout>
